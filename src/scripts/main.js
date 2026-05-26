@@ -1716,13 +1716,13 @@
         });
       }
 
-      if (window.innerWidth <= 860 && document.body.classList.contains("menu-open") && navShell && !event.target.closest(".nav-shell")) {
+      if (window.innerWidth <= 1080 && document.body.classList.contains("menu-open") && navShell && !event.target.closest(".nav-shell")) {
         closeMenu();
       }
     });
 
     window.addEventListener("resize", function () {
-      if (window.innerWidth > 860) {
+      if (window.innerWidth > 1080) {
         closeMenu();
       }
     });
